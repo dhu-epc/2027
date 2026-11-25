@@ -70,7 +70,7 @@ img { display: block; }
 /* vertical guides run the full screen height, above and below the centered sheet */
 .desktop .hero .gv { top: calc(var(--hoff, 0) * -1px / var(--hs, 1)); height: calc(var(--hh, 816) * 1px / var(--hs, 1)); }
 .teams  { height: 2544px; }
-.people { height: 1176px; }
+.people { height: 1464px; }
 .footer { height: 240px; }
 
 /* Guide lines */
@@ -308,7 +308,7 @@ img { display: block; }
 .mobile .frame { width: 390px; }
 .m-hero   { height: 1080px; }
 .m-teams  { height: 2064px; }
-.m-people { height: 1032px; }
+.m-people { height: 1224px; }
 .m-footer { height: auto; }
 .m-footer > .frame { height: auto; padding: 58.46px 0 40px; }
 /* Mobile footer: the brand may wrap. 48px lines keep each line's glyphs on the grid
@@ -450,6 +450,12 @@ small { font-size: inherit; }
 .person-label.m { gap: 6px; }
 .person-label.m .p-tba { font-size: 18px; line-height: 22px; }
 .person-label.m .p-aff { font-size: 10px; line-height: 14px; white-space: normal; }
+/* Photo circles: photo inset inside the dashed ring */
+.ph-img img { position: absolute; inset: 6px; width: calc(100% - 12px); height: calc(100% - 12px); border-radius: 50%; object-fit: cover; }
+.ph-img svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.person-label .p-name { white-space: nowrap; }
+.person-label.m .p-name { white-space: normal; }
+.person-label.m .p-name { font-size: 15px; line-height: 18px; }
 
 /* =========================================================
    About page (about.html) — same grid rules as the top page

@@ -55,6 +55,13 @@ const TEXT = {
   "people.nameAff": "Name / Affiliation",
   "people.judges": "JUDGES",
   "people.thanks": "SPECIAL THANKS",
+  // Names under the photos (photo: people/<key>.jpg)
+  "people.moteki": "Miho Moteki",
+  "people.fujii": "Naotaka Fujii",
+  "people.yoshimura": "Takeshi Yoshimura",
+  "people.ebata": "Makiko Ebata Yamada",
+  "people.students": "Student Judges",
+  "people.studentsAff": "Two DHU students",
   // ---- Footer
   "footer.credit": "Concept &amp; Design: Youmi Nagase",
   "footer.copyright": "<small>© DHU EPC 2027</small>",
